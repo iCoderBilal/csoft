@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import headerLogo from './assests/csoft-logo.svg'
+import headerLogo from './assests/csoft-logo-white.svg'
 
 const Header = () => {
 
