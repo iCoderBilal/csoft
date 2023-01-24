@@ -7,6 +7,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import SwiperCore, { Autoplay } from 'swiper';
+import PlanningScroll from "../../components/PlanningScroll/PlanningScroll";
+import videoBg from './assets/hero-vidBg.mp4';
 
 
 const Homepage = () => {
@@ -31,6 +33,15 @@ const Homepage = () => {
   return (
     <div  id='homepage' style={{overflow:'hidden'}}>
 
+   <video id="background-video" playsInline
+          loop
+          muted
+          autoPlay
+          useRef={videoEl}
+          >
+<source src={videoBg} type="video/mp4"/>
+</video>
+
       <section id='hero-section'>
       <div className='hero-nav'>
         <Header/>
@@ -49,28 +60,19 @@ const Homepage = () => {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
        >
-      <SwiperSlide><h1>We <span className='focus-spell'>Focuses</span> On Making</h1>
-          <p>web apps with a wide range of highlights that enable our customers to boost their exceptional business confidence and advantage over their opposition.</p></SwiperSlide>
-      <SwiperSlide><h1>We <span className='focus-spell'>Focuses</span> On Making</h1>
-          <p>web apps with a wide range of highlights that enable our customers to boost their exceptional business confidence and advantage over their opposition.</p></SwiperSlide>
-      <SwiperSlide><h1>We <span className='focus-spell'>Focuses</span> On Making</h1>
-          <p>web apps with a wide range of highlights that enable our customers to boost their exceptional business confidence and advantage over their opposition.</p></SwiperSlide>
+      <SwiperSlide><h1>We <span className='focus-spell'>Focuses</span> On Making web apps with a wide range</h1>
+          <p> of highlights that enable our customers to boost their exceptional business confidence and advantage over their opposition.</p></SwiperSlide>
+      <SwiperSlide><h1>For our incredibly <span className='focus-spell'>flexible and robust</span> mobile apps</h1>
+          <p>we are concerned for giving our customers infinite potential outcomes at the best prices that have never been experienced before</p></SwiperSlide>
+      <SwiperSlide><h1><span className='focus-spell'>CSOFT</span>  is the main spot where you can find updated answers</h1>
+          <p> under one roof for all issues related to technology and networking. We promise that our customers will be fully satisfied with our business arrangement</p></SwiperSlide>
       ...
       </Swiper>
-          <button className='hero-button'>Explore More</button>
-        </div>
-        <div className='hero-animation'>
-          <img src={heroAnimation} alt="" />
-        {/* <video
-          style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
-          playsInline
-          loop
-          muted
-          alt="All the devices"
-          src={heroAnimation}
-          ref={videoEl}
-        /> */}
-        
+      <div className="hero-btn">
+          <button className='hero-button'>Our Services</button>
+          <button className='hero-button'>About Us</button>
+
+          </div>
         </div>
 
       </div>
@@ -78,17 +80,18 @@ const Homepage = () => {
       </section>
 
       {/* -----Hero Section ends----- */}
+      <PlanningScroll/>
 
-      <section id='our-planning'>
+      {/* <section id='our-planning'>
         <div className="container">
           <div className="planning-heading">
             <h2><span className='our-spell'>Our</span><br /><span className='planning-spell'>Planning</span></h2>
             </div>
           <div className="our-planning-data">
-
+            <PlanningScroll/>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

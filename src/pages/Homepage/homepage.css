@@ -1,6 +1,12 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Prompt:wght@700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+@font-face {
+    font-family: glimmer;
+    src: url("./assets/gilmer-light-webfont.woff2");
+
+    }
+
 
 html{
     font-size: 62.5%;
@@ -9,95 +15,90 @@ html{
   #home-page{
     overflow: hidden;
   }
+  
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 #hero-section{
 width: 100vw;
 height: 100vh;
 overflow: hidden;
-background-image: url('./assets/hero-bg.png');
 background-size: cover;
 
 }
 
 .hero-main{
-    display: grid;
-    grid-template-columns: 50% 50%;
     height: 70vh;
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
 }
 
 .hero-main .hero-heading-slide{
-   border-left: 3px solid whitesmoke;
-   margin: 8rem 3rem 2rem 4.5rem;
+    background: rgba(26, 107, 97, .5);
+   margin: 8rem 23rem 2rem 23rem;
    overflow-x: hidden;
-
+   padding: 7rem 5rem 7rem 5rem;
 }
 
 .hero-main .hero-heading-slide h1{
-    font-family: 'Inter', sans-serif;
-    font-size: 9rem;
+    font-family: glimmer;
+    font-size: 5.5rem;
     text-transform: uppercase;
-    line-height: 1;
-    font-weight: 900;
+    line-height: 7rem;
+    font-weight: bold;
     color: whitesmoke;
-    padding-left: 3rem;
-    padding-top: 3rem;
+    /* padding-left: 3rem;
+    padding-top: 3rem; */
+    text-align: center;
+ 
+
     
 }
 
 .hero-main .hero-heading-slide p{
-    font-family: 'Inter', sans-serif;
+    font-family: glimmer;
     font-size:2rem;
     line-height: 1.2;
     font-weight: 300;
     color:  whitesmoke; 
-    padding-top: 2.4rem;
-    padding-left: 3rem;
+   text-align: center;
+    /* padding: 2.4rem 5rem 0 5rem; */
+    padding: 2.4rem 5rem 0 0rem;
+}
+
+
+.hero-main .hero-heading-slide .hero-btn{
+    display: flex;
+    justify-content: center;
 }
 
 .hero-main .hero-heading-slide .hero-button{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
+    font-family: glimmer;
+    font-size: 1.8rem;
     line-height: 1;
-    font-weight: 400;
+    font-weight: 500;
     color: whitesmoke;
-    background: #1e9bb7;
-     border: none;
-    padding: 1.2rem 3rem;
+    background: transparent;
+     border: 2px solid whitesmoke;
+    padding: 1.2rem 2.5rem;
     text-align: center;
-    margin: 6rem 0 0 3rem;
+    margin: 2rem 1rem 0 1rem;
     cursor: pointer;
     outline: none;
 
 }
 
-.focus-spell{
-color: #1e9bb7;
-}
 
-.hero-main .hero-animation{
-   display: flex;
-   justify-content: center;
-   align-items: center;
- 
-}
-
-.hero-main .hero-animation img{
-    width:60rem;
-    height: auto;
-   animation: rotation 3s infinite linear;
-}
-
-@keyframes rotation {
-    0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-12px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
-}
 
 /* 
 -------------hero -section -end------ */
@@ -107,7 +108,7 @@ color: #1e9bb7;
     color: black;
     width: 100vw;
     height: 100vh;
-    background-color: #1e9bb7;
+    background-color: #0B171D;
 }
 
 #our-planning .container{
@@ -117,6 +118,9 @@ color: #1e9bb7;
 
 #our-planning .planning-heading{
     padding: 10rem 3rem 0 7.5rem;
+    background-image:url('./assets/planning-bg.jpg');
+    background-size: cover;
+    height: 100vh;
 }
 
 #our-planning .planning-heading h2{
