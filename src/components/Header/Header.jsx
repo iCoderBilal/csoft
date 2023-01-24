@@ -3,8 +3,7 @@ import './header.css'
 import headerLogo from './assests/csoft-logo-white.svg'
 
 const Header = () => {
-
-    console.log(headerLogo)
+ 
   return (
     <div id='header'>
         <nav className='header-data'>

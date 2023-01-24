@@ -5,6 +5,10 @@ import Bgvid from './assest/planning-vid.mp4'
 
 const PlanningScroll = () => {
     const alignCenter = { display: 'flex', }
+    // const planheight = document.getElementById('our-planning');
+    let getHeight = window.innerHeight;
+    console.log(getHeight)
+
 
 
   const videoEl = useRef(null);
@@ -25,7 +29,7 @@ const PlanningScroll = () => {
   return (
     <div>
  
-       <section className="our-planning">
+       <section className="our-planning" id="our-planning">
     <Parallax pages={2} style={{background: 'black'}}>
 
      
