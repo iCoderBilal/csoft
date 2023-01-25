@@ -74,6 +74,7 @@ const Homepage = () => {
           <button className='hero-button'>About Us</button>
 
           </div>
+
         </div>
 
       </div>
@@ -81,18 +82,8 @@ const Homepage = () => {
       </section>
 
       {/* -----Hero Section ends----- */}
+   
       <PlanningScroll/>
-
-      {/* <section id='our-planning'>
-        <div className="container">
-          <div className="planning-heading">
-            <h2><span className='our-spell'>Our</span><br /><span className='planning-spell'>Planning</span></h2>
-            </div>
-          <div className="our-planning-data">
-            <PlanningScroll/>
-          </div>
-        </div>
-      </section> */}
     </div>
   )
 }

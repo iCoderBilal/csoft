@@ -1,3 +1,33 @@
+#scroll{
+  height: 100vh;
+  background: red;
+  display: flex;
+}
+
+
+
+#left{
+  flex:50%
+}
+
+
+#right{
+  flex:50%;
+  overflow-x: scroll;
+}
+
+#right .card{
+  width: 200px;
+  height: 300px;
+  background: greenyellow;
+  margin: 20px 0 20px 0;
+}
+
+
+
+
+
+
 .our-planning{
     height: auto !important;
 
