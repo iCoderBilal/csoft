@@ -9,13 +9,9 @@ import 'swiper/css';
 import SwiperCore, { Autoplay } from 'swiper';
 import PlanningScroll from "../../components/PlanningScroll/PlanningScroll";
 import videoBg from './assets/hero-vidBg.mp4';
-import useWindowHeight from "../../components/getWindowHeight/useWindowHeight";
 
 
 const Homepage = () => {
-  const screenHeight = useWindowHeight();
-  console.log(screenHeight.height)
-
   SwiperCore.use([Autoplay])
   const videoEl = useRef(null);
 
@@ -33,7 +29,7 @@ const Homepage = () => {
 
 
   return (
-    <div  id='homepage' style={{overflow:'hidden'}}>
+    <div  id='homepage' style={{overflow:'hidden'}} data-scroll-section>
 
    <video id="background-video" playsInline
           loop
@@ -83,7 +79,7 @@ const Homepage = () => {
 
       {/* -----Hero Section ends----- */}
    
-      <PlanningScroll/>
+    
     </div>
   )
 }
