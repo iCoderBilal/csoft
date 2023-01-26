@@ -11,8 +11,7 @@ html{
   background: black;
 }
 #about-section .container .about-section-heading{
- display: flex;
- flex-direction: column;
+height: 100%;
 
 }
 #about-section .container .about-section-heading h2{
@@ -41,7 +40,8 @@ color: whitesmoke;
 
 
 #about-section .container .about-section-cards{
-  margin: 0 9rem 0 6rem;
+  margin: 0 9rem 0rem 6rem;
+  padding: 0 0 4rem 0rem;
 }
 
 #about-section .container .about-section-cards .about-card{
@@ -53,11 +53,16 @@ color: whitesmoke;
   font-family: glimmer;
   color: #96DED1;
   text-transform: capitalize;
-  line-height: 4.5rem;
+  line-height: 5.5rem;
   font-weight: bolder;
   border-left: 1px solid whitesmoke;
   padding-left: 3rem;
   padding-top: 1rem;
+}
+
+#about-section .container .about-section-cards .about-card h3 span{
+  font-size: 10rem;
+  padding-right: .5rem;
 }
 
 #about-section .container .about-section-cards .about-card p{
