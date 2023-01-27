@@ -1,0 +1,150 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Prompt:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@font-face {
+    font-family: glimmer;
+    src: url("./assets/gilmer-light-webfont.woff2");
+
+    }
+
+
+html{
+    font-size: 62.5%;
+  }
+
+  #home-page{
+    overflow: hidden;
+  }
+  
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+#hero-section{
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+background-size: cover;
+
+}
+
+.hero-main{
+    height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center
+  
+}
+
+.hero-main .hero-heading-slide{
+    background: rgba(26, 107, 97, .3);
+   margin: 8rem 23rem 2rem 23rem;
+   overflow-x: hidden;
+   padding: 7rem 5rem 7rem 5rem;
+}
+
+.hero-main .hero-heading-slide h1{
+    font-family: glimmer;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    line-height: 7rem;
+    font-weight: bold;
+    color: whitesmoke;
+    /* padding-left: 3rem;
+    padding-top: 3rem; */
+    text-align: center;
+ 
+
+    
+}
+
+.hero-main .hero-heading-slide p{
+    font-family: glimmer;
+    font-size:2rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color:  whitesmoke; 
+   text-align: center;
+    /* padding: 2.4rem 5rem 0 5rem; */
+    padding: 2.4rem 5rem 0 0rem;
+}
+
+
+.hero-main .hero-heading-slide .hero-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-main .hero-heading-slide .hero-button{
+    font-family: glimmer;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 500;
+    color: whitesmoke;
+    background: transparent;
+     border: 2px solid whitesmoke;
+    padding: 1.2rem 2.5rem;
+    text-align: center;
+    margin: 2rem 1rem 0 1rem;
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+
+/* 
+-------------hero -section -end------ */
+
+#our-planning{
+    overflow: hidden;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0B171D;
+}
+
+#our-planning .container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#our-planning .planning-heading{
+    padding: 10rem 3rem 0 7.5rem;
+    background-image:url('./assets/planning-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+#our-planning .planning-heading h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 9rem;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 900;
+    color: #1E1C1C;
+}
+
+#our-planning .planning-heading .our-spell{
+    color: #1E1C1C;
+    font-size: 7rem;
+    float: right;
+    padding-right: 19rem;
+   
+
+    
+}
+#our-planning .planning-heading .planning-spell{
+        -webkit-text-stroke: 2px white;
+        color: transparent;
+}
+      
+
+
