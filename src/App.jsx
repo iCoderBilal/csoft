@@ -6,6 +6,7 @@ import ReactDOM from "react-dom";
 import Hero from './HomepageSection/Hero/Hero'
 import './App.css'
 import PlanningScroll from './HomepageSection/PlanningScroll/PlanningScroll';
+import Service from './HomepageSection/Services/Service';
 
 const App = () => {
   const containerRef = useRef(null)
@@ -38,7 +39,7 @@ const App = () => {
   <main data-scroll-container ref={containerRef}>
     <Hero/>
      <PlanningScroll/>
-     <Hero/>
+     <Service/>
   </main>
 </LocomotiveScrollProvider>
 

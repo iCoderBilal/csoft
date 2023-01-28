@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import "./planning.css";
 import Bgvid from './asset/planning-vid.mp4'
 
