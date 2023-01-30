@@ -18,12 +18,12 @@ const Service = () => {
     const { scroll } = useLocomotiveScroll();
   return (
     <>
-        <div id="service-section" data-scroll-section>
+        <div id="service-section" data-scroll-section data-bg-color="#000000">
             <div className="container">
                 <div className="service-data">
 
                     <div className="section-heading" data-scroll>
-                        <h2>Our Services</h2>
+                        <h2 data-scroll data-scroll-repeat>Our Services</h2>
                     </div>
 
                      <div className='service-cards' id="service-cards">

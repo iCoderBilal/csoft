@@ -7,31 +7,32 @@ html{
   font-size: 62.5%;
 }
 
-#about-section{
+#planning-section{
   background: black;
 }
-#about-section .container .about-section-heading{
+#planning-section .container .planning-section-heading{
 height: 100%;
 
 }
-#about-section .container .about-section-heading h2{
+#planning-section .container .planning-section-heading h2{
   font-family: glimmer;
   font-size: 11rem;
   color: whitesmoke;
   text-transform: uppercase;
   letter-spacing: 4px;
   padding-left: 12rem;
+  
   font-weight: bolder;
  
 
 }
 
-#about-section .container .about-section-heading .our-spell{
+#planning-section .container .planning-section-heading .our-spell{
 font-size: 7rem;
 color: whitesmoke;
 } 
 
-/* #about-section .container .about-section-heading video{
+/* #planning-section .container .planning-section-heading video{
   width: 70rem;
   height: 45rem;
   margin-top: 20vh;
@@ -39,16 +40,16 @@ color: whitesmoke;
 }  */
 
 
-#about-section .container .about-section-cards{
+#planning-section .container .planning-section-cards{
   margin: 0 9rem 0rem 6rem;
   padding: 0 0 4rem 0rem;
 }
 
-#about-section .container .about-section-cards .about-card{
+#planning-section .container .planning-section-cards .planning-card{
   margin-bottom: 8rem;
 }
 
-#about-section .container .about-section-cards .about-card h3{
+#planning-section .container .planning-section-cards .planning-card h3{
   font-size: 4rem;
   font-family: glimmer;
   color: #96DED1;
@@ -60,12 +61,12 @@ color: whitesmoke;
   padding-top: 1rem;
 }
 
-#about-section .container .about-section-cards .about-card h3 span{
+#planning-section .container .planning-section-cards .planning-card h3 span{
   font-size: 10rem;
   padding-right: .5rem;
 }
 
-#about-section .container .about-section-cards .about-card p{
+#planning-section .container .planning-section-cards .planning-card p{
   font-size: 2rem;
   line-height: 2.5rem;
   color: whitesmoke;

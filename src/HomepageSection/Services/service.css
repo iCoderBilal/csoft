@@ -17,6 +17,7 @@
 #service-section .section-heading{
     width: 70vw;
     margin: 0 auto;
+    padding-top: 3rem;
 }
 #service-section .section-heading h2{
     font-family: glimmer;
@@ -26,14 +27,15 @@
     letter-spacing: 4px;
     font-weight: bolder;
     text-align: center;
+
 }
 
 #service-section .card-line{
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
     display: flex;
 }
 #service-section .service-cards{
-    margin-top: 10rem;
+    margin-top: 7rem;
     padding-bottom: 13rem;
 }
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -41,7 +43,7 @@
     background-color: transparent;
     width: 15vw;
     height: 22rem;
-    border: 2px solid #96ede1;
+    border: 3px solid #96ede1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin-right: 2rem;
 

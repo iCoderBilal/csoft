@@ -1,0 +1,88 @@
+@font-face {
+    font-family: glimmer;
+    src: url("./assets/gilmer-light-webfont.woff2");
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+
+
+#about-section{
+background: whitesmoke;
+margin: 0;
+padding: 0;
+}
+
+#about-section .about-section-heading{
+    padding-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+
+#about-section .about-section-heading h2{
+    font-family: glimmer;
+    font-size: 10rem;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+}
+
+#about-section .about-main-content{
+    padding: 10rem 20rem 10rem 20rem;
+}
+
+#about-section .about-main-content h3{
+    font-family: glimmer;
+    font-size: 2rem;
+    color: #616161;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 5rem;
+
+}
+
+#about-section .about-main-content .about-description{
+    font-family: glimmer;
+    font-size: 3rem;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#about-section .about-section-cards{
+    padding-bottom: 10rem;
+    display: flex;
+    padding: 0 2rem;
+
+}
+
+#about-section .about-section-cards .about-card{
+    width: 25%;
+    height: 5rem;
+}
+
+#about-section .about-section-cards .about-card h4{
+    font-family: glimmer;
+    font-size: 10rem;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+#about-section .about-section-cards .about-card p{
+    font-family: glimmer;
+    font-size: 3rem;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: -3rem;
+}
