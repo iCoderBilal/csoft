@@ -1,23 +1,31 @@
 import React from 'react'
-import { useRef } from "react";
-import "./projects.css"
-import { useEffect } from 'react';
-import HorizontalScrollSection from '../../components/HorizontalScroll/HorizontalScroll'
+import LocomotiveScroll from 'locomotive-scroll';
+import './project.css'
+import { useEffect, useRef, useState } from 'react';
+
+
 
 
 
 const Projects = () => {
+   
+ 
 
   return (
-  <>
+    <>
+    <div id="projects-section" className='horizontal-scroll-section' data-scroll-section>
+    <div className="section-container">
 
-    <div id="projects-section">
-    <h1>Hello</h1>
-
+    <div className="main-content">
+        <div className="card">Hello</div>
+        <div className="card">Hello</div>
+        <div className="card">Hello</div>
+        <div className="card">Hello</div>
     </div>
-
-  </>
-
+    </div>
+    </div>
+    
+    </>
   )
 }
 
