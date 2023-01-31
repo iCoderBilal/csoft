@@ -1,0 +1,15 @@
+.horizontal-scroll-section {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  
+  .horizontal-scroll-section-content {
+    display: inline-flex;
+  }
+  
+.scrollCard{
+  height: 80vh;
+  width: 70vw;
+  background: blue;
+}
+

@@ -57,9 +57,8 @@ padding: 0;
 }
 
 #about-section .about-section-cards{
-    padding-bottom: 10rem;
     display: flex;
-    padding: 0 2rem;
+    padding: 0 3rem 10rem 3rem;
 
 }
 

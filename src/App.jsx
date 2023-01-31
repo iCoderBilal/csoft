@@ -8,6 +8,7 @@ import './App.css'
 import PlanningScroll from './HomepageSection/PlanningScroll/PlanningScroll';
 import Service from './HomepageSection/Services/Service';
 import About from './HomepageSection/About/About';
+import Projects from './HomepageSection/Projects/Projects.jsx';
 
 const App = () => {
   const containerRef = useRef(null)
@@ -17,24 +18,16 @@ const App = () => {
     new LocomotiveScroll({
        smooth: true,
        lerp: .06,
-       multiplier: .5
+       multiplier: .5,
     });
 
  }, []);
   
   return (
+    <>
 
     <LocomotiveScrollProvider
-  // options={
-  //   {
-  //     smooth: true,
-  //     // ... all available Locomotive Scroll instance options 
-  //   }
-  // }
-  // watch={
-  //   [
-  //   ]
-  // }
+
   containerRef={containerRef}
 >
   <main data-scroll-container ref={containerRef}>
@@ -42,8 +35,11 @@ const App = () => {
      <PlanningScroll/>
      <Service/>
      <About/>
+     <Projects/>
   </main>
 </LocomotiveScrollProvider>
+
+</>
 
   )
 }

@@ -13,7 +13,7 @@ const About = () => {
             <div className="about-main-content" data-scroll data-scroll-direction="vertical" data-scroll-speed="2" data-scroll-target="#about-section">
               <h3>Striking & Expedient Solutions</h3>
 
-              <p className='about-description'>CSOFT IT solutions deals with ultimate business and IT Solutions, we provide the best experience to our clients, it does not matter whether you are going to start a new concept or are already working on a developed concept. We have solutions for every one with best quality</p>
+              <p className='about-description' id='about-description'>CSOFT IT solutions deals with ultimate business and IT Solutions, we provide the best experience to our clients, it does not matter whether you are going to start a new concept or are already working on a developed concept. We have solutions for every one with best quality</p>
             </div>
 
 
