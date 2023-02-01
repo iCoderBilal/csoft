@@ -1,0 +1,64 @@
+import React from 'react'
+import { useLocomotiveScroll } from 'react-locomotive-scroll'
+import './choose.css'
+import ApplicationServices from './assets/categories.png'
+
+const ChooseUs = () => {
+  const { scroll } = useLocomotiveScroll();
+  return (
+    <>
+    <div className="chooseUs-section" id='chooseUs' data-scroll-section>
+      <div className="section-container">
+        <div className="section-heading" id='about-section-heading' data-scroll>
+          <h2 data-scroll data-scroll-repeat>Why<br/> <span>Choose Us</span></h2>
+        </div>
+        <div className="main-content">
+
+          <div className="main-content-data">
+            <div className="heading-description" id='first-data-div' data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2" data-scroll-target="#about-section-heading">
+              <h3>Application Services</h3>
+              <p>from startups to enterprise solutions, the apps we produce for our clients support their clients initiatives first and foremost through open collaboration, forward thinking user expierence, engaging design, cross platform development for both web and mobile</p>
+
+            </div>
+            <div className="main-img">
+              <img src={ApplicationServices} alt="Application Services Icon" />
+              
+              </div>
+          </div>
+
+
+          <div className="main-content-data">
+            <div className="heading-description" id='second-data-div' data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2" data-scroll-target="#first-data-div">
+              <h3>Application Services</h3>
+              <p>from startups to enterprise solutions, the apps we produce for our clients support their clients initiatives first and foremost through open collaboration, forward thinking user expierence, engaging design, cross platform development for both web and mobile</p>
+
+            </div>
+            <div className="main-img">
+              <img src={ApplicationServices} alt="Application Services Icon" />
+              
+              </div>
+          </div>
+
+
+          <div className="main-content-data">
+            <div className="heading-description" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2" data-scroll-target="#second-data-div">
+              <h3>Application Services</h3>
+              <p>from startups to enterprise solutions, the apps we produce for our clients support their clients initiatives first and foremost through open collaboration, forward thinking user expierence, engaging design, cross platform development for both web and mobile</p>
+
+            </div>
+            <div className="main-img">
+              <img src={ApplicationServices} alt="Application Services Icon" />
+              
+              </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+    </>
+  )
+}
+
+export default ChooseUs

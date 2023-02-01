@@ -28,11 +28,10 @@ padding: 0;
     letter-spacing: 4px;
     font-weight: bolder;
     text-align: center;
-    font-style: italic;
 }
 
 #about-section .about-main-content{
-    padding: 10rem 20rem 10rem 20rem;
+    padding: 7rem 20rem 10rem 20rem;
 }
 
 #about-section .about-main-content h3{

@@ -9,6 +9,7 @@ import PlanningScroll from './HomepageSection/PlanningScroll/PlanningScroll';
 import Service from './HomepageSection/Services/Service';
 import About from './HomepageSection/About/About';
 import Projects from './HomepageSection/Projects/Projects';
+import ChooseUs from './HomepageSection/ChooseUs/ChooseUs';
 
 const App = () => {
   const containerRef = useRef(null)
@@ -35,7 +36,7 @@ const App = () => {
      <PlanningScroll/>
      <Service/>
      <About/>
-     <Projects/>
+     <ChooseUs/>
      
   </main>
 </LocomotiveScrollProvider>
