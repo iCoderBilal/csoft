@@ -10,8 +10,13 @@ html{
 #planning-section{
   background: black;
 }
+
+/* #planning-section .custom{
+  background: blueviolet;
+} */
 #planning-section .container .planning-section-heading{
 height: 100%;
+
 
 }
 #planning-section .container .planning-section-heading h2{
@@ -29,20 +34,19 @@ height: 100%;
 
 #planning-section .container .planning-section-heading .our-spell{
 font-size: 7rem;
-color: whitesmoke;
 } 
 
-/* #planning-section .container .planning-section-heading video{
-  width: 70rem;
-  height: 45rem;
-  margin-top: 20vh;
+#planning-section .container .planning-section-heading video{
+  width: 60rem;
+  margin: 5rem auto 0rem auto;
+  margin-bottom: -28rem;
 
-}  */
+} 
 
 
 #planning-section .container .planning-section-cards{
   margin: 0 9rem 0rem 6rem;
-  padding: 0 0 4rem 0rem;
+  padding: 2rem 0 0rem 0rem;
 }
 
 #planning-section .container .planning-section-cards .planning-card{
@@ -52,11 +56,11 @@ color: whitesmoke;
 #planning-section .container .planning-section-cards .planning-card h3{
   font-size: 4rem;
   font-family: glimmer;
-  color: #96DED1;
+  color: whitesmoke;
   text-transform: capitalize;
   line-height: 5.5rem;
   font-weight: bolder;
-  border-left: 1px solid whitesmoke;
+  border-left: 1px solid #006DF9;
   padding-left: 3rem;
   padding-top: 1rem;
 }
@@ -64,16 +68,17 @@ color: whitesmoke;
 #planning-section .container .planning-section-cards .planning-card h3 span{
   font-size: 10rem;
   padding-right: .5rem;
+  color: whitesmoke;
 }
 
 #planning-section .container .planning-section-cards .planning-card p{
   font-size: 2rem;
   line-height: 2.5rem;
-  color: whitesmoke;
+  color: rgb(161,161,161);
   padding-top: 2rem;
   padding-bottom: 1rem;
   padding-left: 3rem;
-  border-left: 1px solid #96DED1;
+  border-left: 1px solid #006DF9;
 }
 
 

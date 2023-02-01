@@ -11,6 +11,8 @@ import About from './HomepageSection/About/About';
 import Projects from './HomepageSection/Projects/Projects';
 import ChooseUs from './HomepageSection/ChooseUs/ChooseUs';
 
+
+
 const App = () => {
   const containerRef = useRef(null)
 
@@ -21,6 +23,9 @@ const App = () => {
        lerp: .06,
        multiplier: .5,
     });
+  
+      
+  
 
  }, []);
   
@@ -35,8 +40,8 @@ const App = () => {
     <Hero/>
      <PlanningScroll/>
      <Service/>
-     <About/>
      <ChooseUs/>
+     <About/>
      
   </main>
 </LocomotiveScrollProvider>

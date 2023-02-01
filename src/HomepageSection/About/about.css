@@ -14,15 +14,19 @@ margin: 0;
 padding: 0;
 }
 
+#about-section .about-section-container{
+    padding-bottom: 5rem;
+}
+
 #about-section .about-section-heading{
     padding-top: 10rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 
 }
 
 #about-section .about-section-heading h2{
     font-family: glimmer;
-    font-size: 10rem;
+    font-size: 11rem;
     color: black;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -31,7 +35,7 @@ padding: 0;
 }
 
 #about-section .about-main-content{
-    padding: 7rem 20rem 10rem 20rem;
+    padding: 0rem 20rem 5rem 20rem;
 }
 
 #about-section .about-main-content h3{
@@ -42,22 +46,22 @@ padding: 0;
     letter-spacing: 4px;
     font-weight: bolder;
     text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 
 }
 
 #about-section .about-main-content .about-description{
     font-family: glimmer;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: black;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-weight: bolder;
     text-align: center;
 }
 
 #about-section .about-section-cards{
     display: flex;
-    padding: 0 3rem 10rem 3rem;
+    padding: 0 7rem 10rem 2rem;
 
 }
 
@@ -72,7 +76,7 @@ padding: 0;
     color: black;
     letter-spacing: 4px;
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
 }
 
 #about-section .about-section-cards .about-card p{
@@ -81,6 +85,6 @@ padding: 0;
     color: black;
     letter-spacing: 4px;
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
     margin-top: -3rem;
 }

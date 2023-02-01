@@ -14,6 +14,8 @@ import appDev from './assets/mobile-development.png'
 import webPortal from './assets/web-portal.png';
 import iT from './assets/settings.png';
 
+
+
 const Service = () => {
     const { scroll } = useLocomotiveScroll();
   return (
@@ -22,13 +24,13 @@ const Service = () => {
             <div className="container">
                 <div className="service-data">
 
-                    <div className="section-heading" data-scroll>
+                    <div className="section-heading" id="section-heading" data-scroll>
                         <h2 data-scroll data-scroll-repeat>Our Services</h2>
                     </div>
 
                      <div className='service-cards' id="service-cards">
 
-                        <div className="card-line" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-20" data-scroll-target="#service-section">
+                        <div className="card-line" data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" data-scroll-target="#service-section">
 
                         <div className="flip-card">
                             <div className="flip-card-inner">
@@ -82,6 +84,37 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
+
+                        
+                        <div className="flip-card">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                <img src={iT} alt="IT & Network Infrastructure icon" />
+                                <h4>IT & Network<br/> Infrastructure</h4>
+                                </div>
+                                <div className="flip-card-back">
+                                <p>
+                                    To support your operational works, you need a detailed IT
+                                    infrastructure design and support
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flip-card">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                <img src={appDev} alt="Mobile Application Development icon" />
+                                <h4>Mobile Application <br/> Development</h4>
+                                </div>
+                                <div className="flip-card-back">
+                                <p>Want to give your idea a strike? Don’t keep it to yourself, CSOFT will turn your ideas to reality by best Mobile App solutions
+</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
      
 
                         </div>
@@ -89,7 +122,7 @@ const Service = () => {
 
 
                         
-                        <div className="card-line" id="secondLine" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-15" data-scroll-target="#service-section">
+                        <div className="card-line" id="secondLine" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-20" data-scroll-target="#service-section">
 
                         <div className="flip-card">
                             <div className="flip-card-inner">
@@ -148,29 +181,6 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
-     
-
-                        </div>
-
-
-
-                        
-                        <div className="card-line" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-10" data-scroll-target="#service-section">
-
-                        <div className="flip-card">
-                            <div className="flip-card-inner">
-                                <div className="flip-card-front">
-                                <img src={cCTV} alt="IP Surveillance Systems (CCTV) icon" />
-                                <h4>IP Surveillance<br/> Systems (CCTV)</h4>
-                                </div>
-                                <div className="flip-card-back">
-                                <p>
-                                    Get your business some extra security, by covering wide area
-                                    through surveillance security
-                                </p>
-                                </div>
-                            </div>
-                        </div>
 
                         <div className="flip-card">
                             <div className="flip-card-inner">
@@ -190,31 +200,24 @@ const Service = () => {
                         <div className="flip-card">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
-                                <img src={appDev} alt="Mobile Application Development icon" />
-                                <h4>Mobile Application <br/> Development</h4>
-                                </div>
-                                <div className="flip-card-back">
-                                <p>Want to give your idea a strike? Don’t keep it to yourself, CSOFT will turn your ideas to reality by best Mobile App solutions
-</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="flip-card">
-                            <div className="flip-card-inner">
-                                <div className="flip-card-front">
-                                <img src={iT} alt="IT & Network Infrastructure icon" />
-                                <h4>IT & Network<br/> Infrastructure</h4>
+                                <img src={cCTV} alt="IP Surveillance Systems (CCTV) icon" />
+                                <h4>IP Surveillance<br/> Systems (CCTV)</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>
-                                    To support your operational works, you need a detailed IT
-                                    infrastructure design and support
+                                    Get your business some extra security, by covering wide area
+                                    through surveillance security
                                 </p>
                                 </div>
                             </div>
                         </div>
+     
+
                         </div>
+
+
+
+                        
 
 
                     </div>

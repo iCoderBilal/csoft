@@ -36,10 +36,12 @@
 
 .chooseUs-section .main-content{
     padding-top: 8rem;
+    padding-bottom: 11rem;
 }
 
 .chooseUs-section .main-content .main-content-data{
   min-height: 40vh;
+  padding-bottom: 3rem;
 }
 
 .chooseUs-section .main-content .main-content-data .heading-description{
@@ -71,14 +73,15 @@
 .chooseUs-section .main-content .main-img{
     float:right;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     width: 50%;
-    height: 40vh;
+    /* height: 40vh; */
 
 }
 
 .chooseUs-section .main-content .main-img img{
     width: 20rem;;
+    padding-top: 2rem;
    
 }

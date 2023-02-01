@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./planning.css";
 import Bgvid from './asset/planning-vid.mp4'
+import Planningbg from './asset/our-planning-bg.png'
 
 const PlanningScroll = () => {
 
@@ -21,13 +22,13 @@ const PlanningScroll = () => {
 
   return (
   
-    <section id="planning-section" className="py-80" data-scroll-section>
+    <section id="planning-section" className="py-20" data-scroll-section>
     <div className="container px-5 mx-auto">
-      <div className="lg:grid grid-cols-2 gap-4 items-start"  id="planning">
+      <div className="lg:grid grid-cols-2 gap-4 items-start custom"  id="planning">
         <div className="planning-section-heading m-0 p-0" data-scroll data-scroll-sticky data-scroll-target="#planning">
        
           <h2 className="text-5xl font-extrabold"><span className="our-spell">Our</span><br></br> Planning</h2>
-{/*      
+     
           <video
           playsInline
           loop
@@ -36,7 +37,7 @@ const PlanningScroll = () => {
           alt="All the devices"
           src={Bgvid}
           ref={videoEl}
-        /> */}
+        />
    
         </div>
         <div className="text-xl pt-4 lg:pt-0 planning-section-cards" data-scroll>
