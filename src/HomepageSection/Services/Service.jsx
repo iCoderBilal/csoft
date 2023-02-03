@@ -25,7 +25,7 @@ const Service = () => {
                 <div className="service-data">
 
                     <div className="section-heading" id="section-heading" data-scroll>
-                        <h2 data-scroll data-scroll-repeat>Our Services</h2>
+                        <h2 data-scroll data-scroll-repeat><b>Our Services</b></h2>
                     </div>
 
                      <div className='service-cards' id="service-cards">
