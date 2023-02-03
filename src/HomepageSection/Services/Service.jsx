@@ -1,18 +1,18 @@
 import React, { useState, useEffect, useRef } from "react";
 import './service.css';
 import { useLocomotiveScroll } from 'react-locomotive-scroll'
-import domainAndHosting from './assets/domain.png'
-import corporateLogo from './assets/briefcase.png'
-import publicAddress from './assets/address.png'
-import play from './assets/play.png';
-import prediction from './assets/prediction.png';
-import search from './assets/seo.png';
-import webDev from './assets/software.png';
-import digMarket from './assets/promotion.png';
-import cCTV from './assets/padlock.png';
-import appDev from './assets/mobile-development.png'
-import webPortal from './assets/web-portal.png';
-import iT from './assets/settings.png';
+import domainAndHosting from './assets/domain-blue.png'
+import corporateLogo from './assets/briefcase-blue.png'
+import publicAddress from './assets/address-blue.png'
+import play from './assets/play-blue.png';
+import prediction from './assets/prediction-blue.png';
+import search from './assets/seo-blue.png';
+import webDev from './assets/software-blue.png';
+import digMarket from './assets/promotion-blue.png';
+import cCTV from './assets/padlock-blue.png';
+import appDev from './assets/mobiledevelopment-blue.png'
+import webPortal from './assets/web-portal-blue.png';
+import iT from './assets/settings-blue.png';
 
 
 
@@ -48,7 +48,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={corporateLogo} alt="Corporate icon" />
-                                <h4>Corporate <br/> Branding</h4>
+                                <h4>Corporate Branding</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>We have burst of creative and presentable logos, prints, product labels or even online marketing materials to promote your brand</p>
@@ -61,7 +61,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={publicAddress} alt="Public Address icon" />
-                                <h4>Public <br/> Address</h4>
+                                <h4>Public Address</h4>
                                 </div>
                                 <div className="flip-card-back">
                       
@@ -73,8 +73,8 @@ const Service = () => {
                         <div className="flip-card">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
-                                <img src={play} alt="Video Conferencing Icon" />
-                                <h4>Video <br/> Conferencing</h4>
+                                <img src={play}alt="Video Conferencing Icon" />
+                                <h4>Video Conferencing</h4>
                                 </div>
                                 <div className="flip-card-back">
  
@@ -90,7 +90,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={iT} alt="IT & Network Infrastructure icon" />
-                                <h4>IT & Network<br/> Infrastructure</h4>
+                                <h4>IT & Networ Infrastructure</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>
@@ -105,7 +105,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={appDev} alt="Mobile Application Development icon" />
-                                <h4>Mobile Application <br/> Development</h4>
+                                <h4>Mobile Application Development</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>Want to give your idea a strike? Don’t keep it to yourself, CSOFT will turn your ideas to reality by best Mobile App solutions
@@ -128,7 +128,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={prediction} alt="Enterprise Resource Planning (ERP) icon" />
-                                <h4>Enterprise Resource <br/>Planning (ERP)</h4>
+                                <h4>Enterprise ResourcePlanning (ERP)</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>
@@ -142,7 +142,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={search} alt="SEO icon" />
-                                <h4>Search Engine<br/>Optimization (SEO)</h4>
+                                <h4>Search Engine Optimization (SEO)</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>
@@ -156,7 +156,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={webDev} alt="Website Design &amp; Development icon" />
-                                <h4>Website Design<br/> & Development</h4>
+                                <h4>Website Design & Development</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>
@@ -171,7 +171,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={digMarket} alt="Digital Marketing icon" />
-                                <h4>Digital <br/> Marketing</h4>
+                                <h4>Digital Marketing</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>
@@ -186,7 +186,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={webPortal} alt="Web Based Portals icon" />
-                                <h4>Web Based <br/> Portals</h4>
+                                <h4>Web Based Portals</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>
@@ -201,7 +201,7 @@ const Service = () => {
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                 <img src={cCTV} alt="IP Surveillance Systems (CCTV) icon" />
-                                <h4>IP Surveillance<br/> Systems (CCTV)</h4>
+                                <h4>IP Surveillanc Systems (CCTV)</h4>
                                 </div>
                                 <div className="flip-card-back">
                                 <p>

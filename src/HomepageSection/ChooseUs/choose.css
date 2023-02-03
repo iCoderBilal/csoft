@@ -55,7 +55,7 @@
 .chooseUs-section .main-content .main-content-data .heading-description h3{
     font-size: 4rem;
     font-family: glimmer;
-    color: #96DED1;
+    color: whitesmoke;
     text-transform: capitalize;
     line-height: 5.5rem;
     font-weight: bolder;
@@ -65,17 +65,17 @@
 .chooseUs-section .main-content .main-content-data .heading-description p{
     font-size: 2rem;
     line-height: 2.5rem;
-    color: whitesmoke;
+    color: rgb(161,161,161);
     padding-top: 2rem;
     
 }
 
 .chooseUs-section .main-content .main-img{
     float:right;
-    display: flex;
+    /* display: flex; */
     /* align-items: center; */
-    justify-content: center;
-    width: 50%;
+    /* justify-content: center; */
+    /* width: 50%; */
     /* height: 40vh; */
 
 }
@@ -84,4 +84,9 @@
     width: 20rem;;
     padding-top: 2rem;
    
+}
+
+.chooseUs-section .main-content .transfer-img img{
+    width: 18rem;
+    height: 18rem;
 }

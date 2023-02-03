@@ -2,9 +2,9 @@ import React from 'react'
 import { useLocomotiveScroll } from 'react-locomotive-scroll'
 import './choose.css'
 import ApplicationServices from './assets/categories.png'
-import Enterprises from './assets/apartments.png';
-import Mobility from './assets/mobility.png'
-import Quality from './assets/award.png';
+import Enterprises from './assets/enterprise.png';
+import Mobility from './assets/data-transfer.png'
+import Quality from './assets/best-seller.png';
 
 const ChooseUs = () => {
   const { scroll } = useLocomotiveScroll();
@@ -24,7 +24,7 @@ const ChooseUs = () => {
 
             </div>
             <div className="main-img">
-              <img src={ApplicationServices} alt="Application Services Icon" />
+              <img src={ApplicationServices} alt="Application Services Icon" data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" data-scroll-target="#about-section-heading"/>
               
               </div>
           </div>
@@ -37,7 +37,7 @@ const ChooseUs = () => {
 
             </div>
             <div className="main-img">
-              <img src={Enterprises} alt="Enterprises Solution Icon" />
+              <img src={Enterprises} alt="Enterprises Solution Icon"  data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" data-scroll-target="#first-data-div" />
               
               </div>
           </div>
@@ -49,8 +49,8 @@ const ChooseUs = () => {
               <p>from startups to enterprise solutions, the apps we produce for our clients support their clients initiatives first and foremost through open collaboration, forward thinking user expierence, engaging design, cross platform development for both web and mobile</p>
 
             </div>
-            <div className="main-img">
-              <img src={Mobility} alt="Mobilitiy Solution icon" />
+            <div className="main-img transfer-img">
+              <img src={Mobility} alt="Mobilitiy Solution icon" data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" data-scroll-target="#second-data-div" />
               
               </div>
           </div>
@@ -63,7 +63,7 @@ const ChooseUs = () => {
 
             </div>
             <div className="main-img">
-              <img src={Quality} alt="Quality Engineering Icon" />
+              <img src={Quality} alt="Quality Engineering Icon"  data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" data-scroll-target="#third-data-div"/>
               
               </div>
           </div>

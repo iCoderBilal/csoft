@@ -59,8 +59,8 @@ font-size: 7rem;
   color: whitesmoke;
   text-transform: capitalize;
   line-height: 5.5rem;
-  font-weight: bolder;
-  border-left: 1px solid #006DF9;
+  font-weight: 1200;
+  border-left: 1px solid whitesmoke;
   padding-left: 3rem;
   padding-top: 1rem;
 }
@@ -68,7 +68,8 @@ font-size: 7rem;
 #planning-section .container .planning-section-cards .planning-card h3 span{
   font-size: 10rem;
   padding-right: .5rem;
-  color: whitesmoke;
+  color: black;
+  -webkit-text-stroke: 1px #1775E1;
 }
 
 #planning-section .container .planning-section-cards .planning-card p{
@@ -78,7 +79,7 @@ font-size: 7rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
   padding-left: 3rem;
-  border-left: 1px solid #006DF9;
+  border-left: 1px solid whitesmoke;
 }
 
 

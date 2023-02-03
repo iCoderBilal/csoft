@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import SwiperCore, { Autoplay } from 'swiper';
-import videoBg from './assets/hero-vidBg-blue.mp4';
+import videoBg from './assets/hero-vidBg-1.mp4';
 
 
 const Hero = () => {
