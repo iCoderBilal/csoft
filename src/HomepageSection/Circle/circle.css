@@ -1,0 +1,48 @@
+@font-face {
+    font-family: glimmer;
+    src: url("./assets/gilmer-light-webfont.woff2");
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+
+
+
+  #circle-section{
+    height: 120vh;
+    background: black;
+  }
+
+  #circle-section .circle-heading{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10rem;
+  }
+
+  #circle-section .circle-heading h2{
+    font-family: glimmer;
+    font-size: 4rem;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 4.5rem;
+  }
+  
+  #circle-section .circle-heading .what-we-spell{
+    font-family: glimmer;
+    font-size: 11rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 15rem;
+
+  }
+
+  #circle-section .circle-heading .h-blue{
+    color: #;
+  }

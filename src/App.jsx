@@ -12,6 +12,7 @@ import Projects from './HomepageSection/Projects/Projects';
 import ChooseUs from './HomepageSection/ChooseUs/ChooseUs';
 import ContactUs from './HomepageSection/ContactUs/ContactUs';
 import LatestBlogs from './HomepageSection/LatestBlogs/LatestBlogs';
+import Circle from './HomepageSection/Circle/Circle';
 
 
 
@@ -40,12 +41,14 @@ const App = () => {
 >
   <main data-scroll-container ref={containerRef}>
     <Hero/>
+    <Circle/>
      <PlanningScroll/>
      <Service/>
      <ChooseUs/>
      <About/>
      <ContactUs/>
      <LatestBlogs/>
+     <Circle/>
      
      
   </main>
