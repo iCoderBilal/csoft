@@ -22,14 +22,26 @@
 }
 #service-section .section-heading h2{
     font-family: glimmer;
-    font-size: 10rem;
+    font-size: 4rem;
     color: whitesmoke;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: bolder;
     text-align: center;
+    line-height: 11.5rem;
 
 
+}
+
+#service-section .section-heading .services-spell{
+  font-family: glimmer;
+  font-size: 11rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 11.5rem;
 }
 
 #service-section .card-line{

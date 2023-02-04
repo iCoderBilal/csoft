@@ -11,6 +11,7 @@ import About from './HomepageSection/About/About';
 import Projects from './HomepageSection/Projects/Projects';
 import ChooseUs from './HomepageSection/ChooseUs/ChooseUs';
 import ContactUs from './HomepageSection/ContactUs/ContactUs';
+import LatestBlogs from './HomepageSection/LatestBlogs/LatestBlogs';
 
 
 
@@ -42,8 +43,10 @@ const App = () => {
      <PlanningScroll/>
      <Service/>
      <ChooseUs/>
-     <ContactUs/>
      <About/>
+     <ContactUs/>
+     <LatestBlogs/>
+     
      
   </main>
 </LocomotiveScrollProvider>
