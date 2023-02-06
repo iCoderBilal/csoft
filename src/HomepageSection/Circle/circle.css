@@ -10,14 +10,13 @@
 
 
   #circle-section{
-    height: 120vh;
     background: black;
   }
 
   #circle-section .circle-heading{
     width: 60%;
     margin: 0 auto;
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 
   #circle-section .circle-heading h2{
@@ -29,6 +28,7 @@
     font-weight: bolder;
     text-align: center;
     line-height: 4.5rem;
+    letter-spacing: 1px;
   }
   
   #circle-section .circle-heading .what-we-spell{
@@ -39,10 +39,143 @@
     letter-spacing: 4px;
     font-weight: bolder;
     text-align: center;
-    line-height: 15rem;
+    line-height: 20rem;
 
   }
 
   #circle-section .circle-heading .h-blue{
-    color: #;
+    color: #1775E1;
+  }
+
+  #circle-section .circle-main-content{
+    padding: 12rem 0 10rem 0;
+    display: flex;
+    height: 80rem;
+  }
+
+  #circle-section .circle-main-content .left{
+    flex: 25%;
+    background: violet;
+  }
+
+  #circle-section .circle-main-content .center{
+    flex: 50%;
+    background: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #circle-section .circle-main-content .center img{
+    height: 55rem;
+    animation: up-down linear 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: up-down linear 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: up-down linear 4s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: up-down linear 4s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: up-down linear 4s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+  }
+  
+  @keyframes up-down{
+    0% {
+      transform:  translate(1px,20px)  ;
+    }
+    24% {
+      transform:  translate(1px,30px)  ;
+    }
+    50% {
+      transform:  translate(1px,12px)  ;
+    }
+    74% {
+      transform:  translate(1px,22px)  ;
+    }
+    100% {
+      transform:  translate(1px,22px)  ;
+    }
+  }
+  
+  @-moz-keyframes up-down{
+    0% {
+      -moz-transform:  translate(1px,20px)  ;
+    }
+    24% {
+      -moz-transform:  translate(1px,30px)  ;
+    }
+    50% {
+      -moz-transform:  translate(1px,12px)  ;
+    }
+    74% {
+      -moz-transform:  translate(1px,22px)  ;
+    }
+    100% {
+      -moz-transform:  translate(1px,22px)  ;
+    }
+  }
+  
+  @-webkit-keyframes up-down {
+    0% {
+      -webkit-transform:  translate(1px,20px)  ;
+    }
+    24% {
+      -webkit-transform:  translate(1px,30px)  ;
+    }
+    50% {
+      -webkit-transform:  translate(1px,12px)  ;
+    }
+    74% {
+      -webkit-transform:  translate(1px,22px)  ;
+    }
+    100% {
+      -webkit-transform:  translate(1px,22px)  ;
+    }
+  }
+  
+  @-o-keyframes up-down {
+    0% {
+      -o-transform:  translate(1px,20px)  ;
+    }
+    24% {
+      -o-transform:  translate(1px,30px)  ;
+    }
+    50% {
+      -o-transform:  translate(1px,12px)  ;
+    }
+    74% {
+      -o-transform:  translate(1px,22px)  ;
+    }
+    100% {
+      -o-transform:  translate(1px,22px)  ;
+    }
+  }
+  
+  @-ms-keyframes up-down {
+    0% {
+      -ms-transform:  translate(1px,20px)  ;
+    }
+    24% {
+      -ms-transform:  translate(1px,30px)  ;
+    }
+    50% {
+      -ms-transform:  translate(1px,12px)  ;
+    }
+    74% {
+      -ms-transform:  translate(1px,22px)  ;
+    }
+    100% {
+      -ms-transform:  translate(1px,22px)  ;
+    }
+  }
+
+  #circle-section .circle-main-content .right{
+    flex: 25%;
+    background: blueviolet;
   }

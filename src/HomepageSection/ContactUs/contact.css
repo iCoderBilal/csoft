@@ -103,6 +103,11 @@
     font-size: 2rem;
     font-family: glimmer;
     margin-top: 3rem;
+    transition: all ease .3s;
+   }
+
+   .contact-us-right .contact-us-form form input:focus,textarea:focus{
+    border-bottom: solid 2px #1775E1;
    }
 
 
