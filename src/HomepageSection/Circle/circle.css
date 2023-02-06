@@ -10,7 +10,7 @@
 
 
   #circle-section{
-    background: black;
+    background: whitesmoke;
   }
 
   #circle-section .circle-heading{
@@ -22,7 +22,7 @@
   #circle-section .circle-heading h2{
     font-family: glimmer;
     font-size: 4rem;
-    color: whitesmoke;
+    color: black;
     text-transform: capitalize;
     letter-spacing: 4px;
     font-weight: bolder;
@@ -34,7 +34,7 @@
   #circle-section .circle-heading .what-we-spell{
     font-family: glimmer;
     font-size: 11rem;
-    color: whitesmoke;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: bolder;
@@ -48,27 +48,63 @@
   }
 
   #circle-section .circle-main-content{
-    padding: 12rem 0 10rem 0;
+    padding: 4rem 0 10rem 0;
     display: flex;
     height: 80rem;
   }
 
   #circle-section .circle-main-content .left{
     flex: 25%;
-    background: violet;
+    /* background: violet; */
+    display: flex;
+    align-items: center;
+  }
+
+  #circle-section .circle-main-content .left .left-card{
+    width: 35rem;
+    height: 22rem;
+    background: black;
+    border-radius: 3%;
+  }
+
+  #circle-section .circle-main-content .left .left-card h3{
+    font-family: glimmer;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 2.5rem;
+    padding-top: 2rem;
+    padding: 3rem 2rem 2rem 2rem;
+  }
+
+  #circle-section .circle-main-content .left .left-card p{
+    font-family: glimmer;
+    font-size: 1.4rem;
+    color: rgb(161,161,161);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding: 0 2rem 2rem 2rem;
   }
 
   #circle-section .circle-main-content .center{
     flex: 50%;
-    background: wheat;
+    /* background: wheat; */
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   #circle-section .circle-main-content .center img{
-    height: 55rem;
-    animation: up-down linear 4s;
+    height: 60rem;
+    /* animation: up-down linear 4s;
     animation-iteration-count: infinite;
     transform-origin: 50% 50%;
     -webkit-animation: up-down linear 4s;
@@ -82,7 +118,7 @@
     -o-transform-origin: 50% 50%;
     -ms-animation: up-down linear 4s;
     -ms-animation-iteration-count: infinite;
-    -ms-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%; */
   }
   
   @keyframes up-down{
@@ -177,5 +213,45 @@
 
   #circle-section .circle-main-content .right{
     flex: 25%;
-    background: blueviolet;
+    /* background: blueviolet; */
+    display: flex;
+  align-items: center;
+    
+   
+  }
+
+  #circle-section .circle-main-content .right .right-card{
+    width: 35rem;
+    height: 22rem;
+    background: black;
+    border-radius: 3%;
+    position: absolute;
+    right: 0;
+  }
+
+  #circle-section .circle-main-content .right .right-card h3{
+    font-family: glimmer;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 2.5rem;
+    padding-top: 2rem;
+    padding: 3rem 2rem 2rem 2rem;
+  }
+
+  #circle-section .circle-main-content .right .right-card p{
+    font-family: glimmer;
+    font-size: 1.4rem;
+    color: rgb(161,161,161);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding: 0 2rem 2rem 2rem;
   }
