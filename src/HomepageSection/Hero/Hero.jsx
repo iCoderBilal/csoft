@@ -59,7 +59,6 @@ const Hero = () => {
       
       <SwiperSlide><h1>For our incredibly <span className='focus-spell'>flexible and robust</span> mobile apps</h1>
           <p>we are concerned for giving our customers infinite potential outcomes at the best prices that have never been experienced before</p></SwiperSlide>
-
           <SwiperSlide><h1>We <span className='focus-spell'>Focuses</span> On Making web apps with a wide range</h1>
           <p> of highlights that enable our customers to boost their exceptional business confidence and advantage over their opposition.</p></SwiperSlide>
       <SwiperSlide><h1><span className='focus-spell'>CSOFT</span>  is the main spot where you can find updated answers</h1>
