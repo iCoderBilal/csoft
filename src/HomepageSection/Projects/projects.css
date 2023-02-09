@@ -1,0 +1,117 @@
+@font-face {
+    font-family: glimmer;
+    src: url("./assets/gilmer-light-webfont.woff2");
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+  
+
+#projects-section{
+    height: 200vh;
+    background: whitesmoke;
+}
+
+#projects-section .projects-container{
+    padding-top: 12rem;
+}
+
+#projects-section .projects-heading h2{
+    font-size: 20rem;
+    font-family: glimmer;
+    color: black;
+    text-transform: uppercase;
+    line-height: 20.5rem;
+    font-weight: 1200;
+    text-align: center;
+}
+
+#projects-section .projects-heading .recent-spell{
+    -webkit-text-stroke: 3px black;
+    color: whitesmoke;
+}
+
+  
+  .box-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12rem  7rem 0 7rem;
+  }
+  .box-container .box {
+    position: relative;
+    width: 54rem;
+    height: 33rem;
+    transition: 0.5s;
+    overflow: hidden;
+    margin: 5rem 0;
+  }
+  .box-container .box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0;
+    object-fit: cover;
+  }
+
+  .box-container .box .box-info-name{
+    position: absolute;
+    bottom: -100%;
+    transition: all ease .5s;
+    background: black;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-container .box .box-info-name h4{
+    font-size: 5rem;
+    font-family: glimmer;
+    color: whitesmoke;
+    text-transform: capitalize;
+    line-height: 5.5rem;
+    text-align: center;
+    font-weight: bolder;
+
+  }
+  .box-container .box:hover .box-info-name{
+    bottom: 0;
+  }
+  
+
+  .box-container .box .box-info-button{
+    position: absolute;
+    top: -100%;
+    transition: all ease .5s;
+    background: black;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-container .box .box-info-button button{
+    color: black;
+    background: whitesmoke;
+    padding: 1.5rem 5rem;
+    font-size: 2.5rem;
+    font-family: glimmer;
+    font-weight: bolder;
+    /* border: 2px solid whitesmoke; */
+    text-transform: uppercase;
+    border-radius: 4rem;
+  }
+
+  .box-container .box:hover .box-info-button{
+   top: 0;
+  }
+  
