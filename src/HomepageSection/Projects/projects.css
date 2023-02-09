@@ -9,7 +9,6 @@
   
 
 #projects-section{
-    height: 200vh;
     background: whitesmoke;
 }
 
@@ -39,7 +38,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 12rem  7rem 0 7rem;
+    padding: 12rem  7rem 7rem 7rem;
   }
   .box-container .box {
     position: relative;
@@ -102,7 +101,7 @@
   .box-container .box .box-info-button button{
     color: black;
     background: whitesmoke;
-    padding: 1.5rem 5rem;
+    padding: 1rem 5rem;
     font-size: 2.5rem;
     font-family: glimmer;
     font-weight: bolder;
@@ -113,5 +112,24 @@
 
   .box-container .box:hover .box-info-button{
    top: 0;
+  }
+
+  #projects-section .more-projects-btn{
+    text-align: center;
+    /* margin: 0 auto;
+    width: 60%; */
+    padding-bottom: 16rem;
+  }
+
+  #projects-section .more-projects-btn button{
+    color: whitesmoke;
+    background: black;
+    padding: 1rem 5rem;
+    font-size: 2.5rem;
+    font-family: glimmer;
+    font-weight: bolder;
+    /* border: 2px solid whitesmoke; */
+    text-transform: uppercase;
+    border-radius: 4rem;
   }
   
