@@ -8,7 +8,6 @@ import './App.css'
 import PlanningScroll from './HomepageSection/PlanningScroll/PlanningScroll';
 import Service from './HomepageSection/Services/Service';
 import About from './HomepageSection/About/About';
-import Projects from './HomepageSection/Projects/Projects';
 import ChooseUs from './HomepageSection/ChooseUs/ChooseUs';
 import ContactUs from './HomepageSection/ContactUs/ContactUs';
 import LatestBlogs from './HomepageSection/LatestBlogs/LatestBlogs';
