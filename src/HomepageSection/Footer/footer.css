@@ -8,13 +8,17 @@
   }
 
 #footer{
-    height: 44vh;
     background-color: black;
+}
+
+#footer .footer-container{
+    padding-bottom: 2rem;
 }
 
 #footer .footer-content{
     display: flex;
-    height: 40vh;
+    padding-bottom: 2rem;
+    border-bottom: .5px solid whitesmoke;
 }
 
 #footer .footer-content .footer-side{
@@ -71,6 +75,7 @@ margin: 0 1rem;
 
     #footer .footer-content .footer-side-2 .connect-with-us-content{
         padding-top: 2rem;
+        
     }
 
     #footer .footer-content .footer-side-2 .connect-with-us-content p{
@@ -134,5 +139,39 @@ margin: 0 1rem;
         }
 
         #footer .footer-content .footer-side-4{
-            background: blueviolet;
+           
+            }
+
+
+            #footer .footer-content .footer-side-4 .location h3{
+                font-family: glimmer;
+                font-size: 3rem;
+                color: whitesmoke;
+                text-transform: capitalize;
+                letter-spacing: 1px;
+                font-weight:bolder;
+                text-align: left;
+                padding-top: 2.8rem;
+            }
+
+            #footer .footer-content .footer-side-4 .location p{
+                font-family: glimmer;
+                font-size: 1.8rem;
+                color: whitesmoke;
+                text-transform: capitalize;
+                letter-spacing: 1px;
+                font-weight:500;
+                text-align: left; 
+                padding-top: 2rem;
+            }
+            
+            .footer-rights p{
+                font-family: glimmer;
+                font-size: 1.8rem;
+                color: whitesmoke;
+                text-transform: capitalize;
+                letter-spacing: 1px;
+                font-weight:500;
+                text-align:center; 
+                padding-top: 2rem;
             }

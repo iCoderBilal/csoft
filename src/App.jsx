@@ -43,7 +43,6 @@ const App = () => {
 >
   <main data-scroll-container ref={containerRef}>
     <Hero/>
-    <Footer/>
      <PlanningScroll/>
      <Service/>
      <Projects/>
@@ -53,6 +52,7 @@ const App = () => {
      <Circle/>
      <Partners/>
      <LatestBlogs/>
+     <Footer/>
      
      
   </main>

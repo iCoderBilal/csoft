@@ -45,8 +45,15 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-side footer-side-4">
-
+                 <div className="location">
+                    <h3>Our Office</h3>
+                    <p>CSOFT Systems<br/> P-165 B, First & Second Floor, Millat Chowk, Faisalabad, Punjab, Pakistan - 38000</p>
+                 </div>
                 </div>
+            </div>
+
+            <div className="footer-rights">
+                <p>Copyright ©2020 CSOFT. All Rights Reserved</p>
             </div>
         </div>
     </footer>
