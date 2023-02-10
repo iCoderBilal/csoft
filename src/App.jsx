@@ -42,9 +42,9 @@ const App = () => {
 >
   <main data-scroll-container ref={containerRef}>
     <Hero/>
-    <Projects/>
      <PlanningScroll/>
      <Service/>
+     <Projects/>
      <ChooseUs/>
      <About/>
      <ContactUs/>
