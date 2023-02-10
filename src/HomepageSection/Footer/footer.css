@@ -1,0 +1,138 @@
+@font-face {
+    font-family: glimmer;
+    src: url("./assets/gilmer-light-webfont.woff2");
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+
+#footer{
+    height: 44vh;
+    background-color: black;
+}
+
+#footer .footer-content{
+    display: flex;
+    height: 40vh;
+}
+
+#footer .footer-content .footer-side{
+    flex: 25%;
+    height: 100%;
+    padding: 2rem 3rem;
+}
+
+#footer .footer-content .footer-side-1{
+
+}
+
+#footer .footer-content .footer-side-1 .csoft-logo{
+    width: 30rem;
+    margin-left: -2rem;
+    padding-left: 1rem;
+}
+
+#footer .footer-content .footer-side-1 p{
+    font-family: glimmer;
+    font-size: 1.8rem;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight:500;
+    text-align: left;
+    line-height: 2.5rem; 
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+#footer .footer-content .footer-side-1 .footer-sociallinks{
+    display: flex;
+    padding-top: 3rem;
+}
+
+#footer .footer-content .footer-side-1 .footer-sociallinks .sociallink{
+margin: 0 1rem;
+}
+#footer .footer-content .footer-side-2{
+    background: black;
+    }
+
+    #footer .footer-content .footer-side-2 h3{
+        font-family: glimmer;
+        font-size: 3rem;
+        color: whitesmoke;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-weight:bolder;
+        text-align: left;
+        padding-top: 2.8rem;
+    }
+
+    #footer .footer-content .footer-side-2 .connect-with-us-content{
+        padding-top: 2rem;
+    }
+
+    #footer .footer-content .footer-side-2 .connect-with-us-content p{
+        font-family: glimmer;
+        font-size: 1.8rem;
+        color: whitesmoke;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-weight:500;
+        text-align: left;
+    }
+
+    #footer .footer-content .footer-side-2 .connect-with-us-content .telephone{
+        padding-top: 1rem;
+    }
+
+    #footer .footer-content .footer-side-3{
+       
+        }
+
+        #footer .footer-content .footer-side-3 .newsletter h3{
+            font-family: glimmer;
+            font-size: 3rem;
+            color: whitesmoke;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            font-weight:bolder;
+            text-align: left;
+            padding-top: 2.8rem;
+        }
+
+        #footer .footer-content .footer-side-3 .newsletter input{
+            margin-top: 2rem;
+            display: block;
+            width: 100%;
+            padding: 0rem 0rem;
+            font-size: 1.8rem;
+            color: whitesmoke;
+            text-transform: capitalize;
+            background: transparent;
+            border-bottom: 2px solid whitesmoke;
+            outline: none;
+            transition: all ease .3s;
+        }
+        #footer .footer-content .footer-side-3 .newsletter input::placeholder{
+            font-size: 1.8rem;
+            color: whitesmoke;
+        }
+
+        #footer .footer-content .footer-side-3 .newsletter input:focus{
+            border-bottom:  2px solid #1775E1;
+        }
+
+        #footer .footer-content .footer-side-3 .newsletter button{
+            font-size: 1.8rem;
+            color: black;
+            background: whitesmoke;  
+            padding: 0.8rem 2.5rem;
+            border-radius: 25px;
+            margin: 2rem auto 0 auto;
+        }
+
+        #footer .footer-content .footer-side-4{
+            background: blueviolet;
+            }
