@@ -40,6 +40,7 @@ const App = () => {
     <LocomotiveScrollProvider
 
   containerRef={containerRef}
+  
 >
   <main data-scroll-container ref={containerRef}>
     <Hero/>
